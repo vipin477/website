@@ -1,0 +1,2829 @@
+.container-fluid {
+
+    height: auto;
+    width: auto;
+    padding: 0px;
+
+}
+
+/*-------------------------------------------section headerstart-----------------------*/
+.nav-logo-bar {
+
+    height: 71px;
+    width: auto;
+    display: flex;
+    background-color: #ffffff;
+    position: relative;
+    top: 20px;
+    z-index: 99;
+}
+
+.section-logo-Bethany {
+
+    height: 71px;
+    width: 225px;
+    position: relative;
+    right: 13px;
+    background-color: #019970;
+    color: white;
+}
+
+.section-logo-Bethany p {
+    padding: 3px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-nav-bar {
+
+    height: 80px;
+    width: 900px;
+    position: relative;
+    left: 56px;
+    font-size: 13px;
+}
+
+.section-nav-bar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.section-nav-bar ul li {
+    list-style: none;
+    float: left;
+    padding: 17px;
+
+}
+
+.nav-margin-top {
+    margin-top: 10px;
+}
+
+.hover-home {
+    color: #19a37f !important;
+}
+
+.section-menu-bar button {
+    background-color: #019970;
+    margin-top: 10px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    height: 35px;
+    width: 155px;
+    font-size: 13px;
+
+}
+
+.section-nav-bar button {
+    border: none;
+    border-radius: 100px;
+    padding: 2px;
+    font-size: 13px;
+    height: 43px;
+    width: 145px;
+    background-color: #019970;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    left: 28px;
+    bottom: 4px;
+}
+
+.section-nav-bar button:hover {
+    background-color: #e5e8eb;
+}
+
+.color {
+    color: #019970 !important;
+}
+
+.hover-about:hover {
+    color: #019970
+}
+
+.hover-services:hover {
+    color: #019970
+}
+
+.hover-portfilo:hover {
+    color: #019970
+}
+
+.hover-team:hover {
+    color: #019970
+}
+
+.hover-dropdown:hover {
+    color: #019970
+}
+
+.hover-contact:hover {
+    color: #019970
+}
+
+/* ----------------------header css  end--------------------- */
+
+/* -------------------------------section background image start----------------------------- */
+.section-background-image {
+
+    background-image: url(Assets/images/vipin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 51px;
+    height: 600px;
+    position: relative;
+    bottom: 122px;
+}
+
+.section-background-image::after {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.section-background-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    bottom: 520px;
+    left: 56px;
+}
+
+.section-background-text h2 {
+
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 515px;
+    left: 216px;
+    color: white;
+}
+
+.section-background-text button {
+    border-radius: 100px;
+    position: relative;
+    bottom: 489px;
+    left: 460px;
+    height: 40px;
+    width: 150px;
+    font-size: 12px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.section-background-text button:hover {
+    border: none;
+    background-color: #019970;
+}
+
+
+/* --------------section background image end------------------------- */
+
+
+
+
+/* -------------------------------clints start----------------------- */
+.section-clints-result {
+    height: 140px;
+    width: 1349px;
+    background-color: #019970;
+    position: relative;
+    bottom: 198px;
+}
+
+.body-section-clints-result {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.Clients {
+
+    position: relative;
+    left: 34px;
+    top: 30px;
+
+}
+
+.Clients span {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+
+}
+
+.Clients p {
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    position: relative;
+    left: 9px;
+    bottom: 8px;
+}
+
+.Project {
+
+    position: relative;
+    left: 236px;
+    top: 30px;
+
+}
+
+.Project span {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+
+}
+
+.Project p {
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    position: relative;
+    left: 4px;
+    bottom: 8px;
+}
+
+.Hour-of-support {
+
+    position: relative;
+    left: 448px;
+    top: 30px;
+
+}
+
+.Hour-of-support span {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+
+}
+
+.Hour-of-support p {
+    font-size: 17px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    position: relative;
+    bottom: 8px;
+    right: 15px;
+
+}
+
+.Hard-Workers {
+
+    position: relative;
+    left: 653px;
+    top: 30px;
+}
+
+.Hard-Workers span {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+
+}
+
+.Hard-Workers p {
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    position: relative;
+    bottom: 8px;
+    right: 15px;
+
+}
+
+/*------------------section 1 css end--------------------- */
+
+
+
+/* ----------------section 2 css  start---------------------------  */
+.body-top-container {
+    position: relative;
+    bottom: 85px;
+}
+
+.why-choose {
+    font-size: 33px;
+    font-weight: 700;
+    color: white;
+}
+
+.text-class {
+    font-size: 13px;
+    color: white;
+}
+
+.background {
+    background-color: #019970;
+    border: none;
+    height: 513px;
+    width: 300px;
+
+}
+
+.card-body a {
+    background-color: #1aa37f;
+    border: none;
+    border-radius: 100px;
+    margin-left: 45px;
+    font-size: 17px;
+    height: 41px;
+    width: 147PX;
+}
+
+.card-body a i {
+    font-size: 11px;
+}
+
+.card-body a:hover {
+    background-color: #f8f8f8;
+    color: #1aa37f;
+}
+
+.margin-top3 {
+    position: relative;
+    top: 87px;
+    left: 25px;
+    height: 325px;
+    border: none;
+    box-shadow: 0px 0px 6px -2px;
+}
+
+.notes-card {
+    font-size: 40px;
+    color: #1aa37f;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+
+.text-card-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+    margin-top: 25px;
+}
+
+.p-card-text {
+    color: #959595;
+    margin-top: 14px;
+    font-size: 18px !important;
+}
+
+/* ----------------section 2 css end-------------------------- */
+
+
+
+
+/* ------------------------section 3 css start------------------------ */
+.section-servic-body {
+
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+}
+
+.call-action-staff {
+    height: 307px;
+    background-image: url(Assets/images/staf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.call-action-staff::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.text-call {
+    text-align: center;
+    position: relative;
+    bottom: 233px;
+
+}
+
+.call {
+    text-align: center;
+    color: white;
+}
+
+.call h1 {
+    font-weight: 700px;
+}
+
+.text-call button {
+    background: content-box;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100px;
+    height: 45px;
+    width: 160px;
+    font-size: 15px;
+}
+
+.text-call button:hover {
+    color: white;
+    background-color: #019970;
+    border: none;
+}
+
+
+/* -----------------------------section 3 css end---------------------------------- */
+
+
+
+/* -----------------------------section 4 css end---------------------------------- */
+.service-body {
+
+    background-color: #f6f6f6;
+    position: relative;
+    bottom: 165px;
+    height: 630px;
+
+}
+
+.services {
+    height: auto;
+    width: 355px;
+    margin-left: 8px;
+}
+
+.under-line {
+
+    height: 3px;
+    width: 45px;
+    background-color: #019970;
+    position: relative;
+    bottom: 27px;
+}
+
+.font-icon {
+    border: 1px solid #019970;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    position: relative;
+    left: 125px;
+    top: 35px;
+    padding: 10px;
+}
+
+.font-icon i {
+    font-size: 25px;
+    margin-top: 5px;
+    color: #019970;
+}
+
+.card-body {
+
+    margin-top: 25px;
+}
+
+.card-body p {
+    font-size: 12px;
+}
+
+.card-body h1 {
+    font-size: 32px;
+}
+
+.card0 {
+    position: relative;
+    right: 191px;
+    bottom: 10px;
+    width: 330px;
+    border: none;
+    box-shadow: 0px 0px 6px -2px;
+}
+
+.service-tax-margin:hover H1 {
+    color: #19a37f;
+}
+
+.service-tax-margin:hover i {
+
+    color: white;
+}
+
+.service-tax-margin:hover .font-icon {
+    background-color: #019970;
+}
+
+.service-tax-margin2:hover H1 {
+    color: #19a37f;
+}
+
+.service-tax-margin2:hover i {
+
+    color: white;
+}
+
+.service-tax-margin2:hover .font-icon {
+    background-color: #019970;
+}
+
+.section-width:hover H1 {
+    color: #19a37f;
+}
+
+.section-width:hover i {
+
+    color: white;
+}
+
+.section-width:hover .font-icon {
+    background-color: #019970;
+}
+
+.cardeo:hover H1 {
+    color: #19a37f;
+}
+
+.cardeo:hover i {
+
+    color: white;
+}
+
+.cardeo:hover .font-icon {
+    background-color: #019970;
+}
+
+.carding {
+    width: 300px;
+    position: relative;
+    right: 100px;
+}
+
+.carded {
+    position: relative;
+    left: 375px;
+    top: 20px;
+    border: none;
+    box-shadow: 0px 0px 6px -2px;
+    width: 334px;
+
+}
+
+.cardeo {
+    position: relative;
+    left: 381px;
+    top: 20px;
+    border: none;
+    box-shadow: 0px 0px 6px -2px;
+    height: 217px;
+    width: 343px;
+}
+
+.section-width {
+    width: 345px;
+}
+
+.service-tax-margin {
+    margin-top: 60px;
+
+}
+
+.service-tax-margin2 {
+    position: relative;
+    top: 48px;
+    right: 132px;
+    border: none;
+    box-shadow: 0px 0px 6px -2px;
+    height: 219px;
+    width: 337px;
+}
+
+/* ----------------------------------------------section 4 end ------------------------------------------------ */
+
+
+/* -----------------------------------------section 5 start portfilo----------------------------------- */
+
+.portfilo-body {
+
+    height: auto;
+    width: auto;
+    position: relative;
+    bottom: 100px;
+}
+
+.section-portfilo-underline {
+    border: 1px solid #019970;
+    height: 4px;
+    width: 100px;
+    background-color: #019970;
+    margin-top: 15px;
+}
+
+.section-images img {
+    width: 350px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.section-app-card-all-web {
+
+    height: 50px;
+    width: 251px;
+    position: relative;
+    left: 450px;
+
+}
+
+.portfilo-body p {
+    margin-top: 15px;
+}
+
+.section-app-card-all-web ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.section-app-card-all-web ul li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+
+}
+
+.section-all-text {
+
+    height: 29px;
+    width: 48px;
+    position: absolute;
+    right: 218px;
+    top: 10px;
+    border-radius: 100px;
+    background-color: #019970;
+}
+
+.all-text {
+    position: relative;
+    bottom: 10px;
+    color: white !important;
+}
+
+.top-margin {
+    margin-top: 15px;
+}
+
+.section-images img:hover {
+    transform: scale(1.10);
+
+}
+
+/* ------------------section 5 end  portfilo------------------------ */
+
+/* -----------------------section 6 testmonilos start------------------- */
+.section-testimonials-body {
+
+    height: 510px;
+    width: auto;
+    margin-top: 30px;
+    display: flex;
+    background-color: #f6f6f6;
+}
+
+.section-text-testimonials {
+
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.testmonilos-size {
+    font-size: 12px !important;
+}
+
+.testimonials-underline {
+    border: 1px solid #019970;
+    height: 4px;
+    width: 130px;
+    background-color: #019970;
+}
+
+.section-text-testimonials p {
+    font-size: 15px;
+    margin-top: 14px;
+}
+
+.testimonials-card {
+    width: 235px;
+    margin-left: 55px;
+    border: none;
+    box-shadow: 0px 0px 6px -2px;
+}
+
+.slider-margin-2 {
+    position: relative;
+    left: 111px;
+    bottom: 125px;
+
+}
+
+.man-images {
+
+    height: 65px;
+    width: 65px;
+    margin-left: 75px;
+    background-image: url(Assets/profile/man.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+
+}
+
+.testimonials-card h1 {
+    font-size: 17px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.testimonials-card p {
+    text-align: center;
+}
+
+.card-text i {
+    color: #019970;
+}
+
+.slider-margin {
+    position: relative;
+    left: 397px;
+    bottom: 126px;
+
+}
+
+.section-slider {
+
+    height: 31px;
+    width: 89px;
+    display: flex;
+    position: relative;
+    left: 803px;
+    bottom: 35px;
+}
+
+.round-1 {
+    border: 1px solid #019970;
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+
+}
+
+.round-2 {
+    border: 1px solid #019970;
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+    background-color: #019970;
+    margin-left: 10px;
+}
+
+.round-3 {
+    border: 1px solid #019970;
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+.round-4 {
+    border: 1px solid #019970;
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+/* -------------------------------------------section 6 testmonilos end--------------------------------- */
+
+
+
+
+/*---------------------------------- section 7  team start--------------------------------------------- */
+.section-imortant-width {
+    width: 362px;
+}
+
+.section-Team {
+
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.Team-under-line {
+    border: 1px solid #019970;
+    height: 4px;
+    width: 68px;
+    background-color: #019970;
+}
+
+.section-team-body {
+
+    height: 125px;
+    width: 364px;
+    margin-left: 0px;
+}
+
+.card-profile {
+
+    height: 240px;
+    width: 90px;
+    background-image: url(Assets/profile/man.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+    position: relative;
+    left: 97px;
+    top: 25px;
+}
+
+.card-size {
+    width: 275px;
+    height: 345px;
+    box-shadow: 0px 0px 6px -2px;
+    margin-left: 30px;
+    border: none;
+}
+
+.team-text {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.center-text {
+    position: relative;
+    bottom: 29px;
+    font-size: 12px;
+}
+
+.margin-top {
+    position: relative;
+    bottom: 12px;
+}
+
+.section-social {
+
+    height: 100px;
+    width: 160px;
+    margin-left: 59px;
+    position: relative;
+    bottom: 45px;
+    display: flex;
+}
+
+.twitter {
+
+    height: 28px;
+    width: 28px;
+    border-radius: 100px;
+    text-align: center;
+    background-color: #a8a5ae;
+}
+
+.twitter i {
+    font-size: 12px;
+    color: white;
+}
+
+.facebook {
+
+    height: 28px;
+    width: 28px;
+    border-radius: 100px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #a8a5ae;
+}
+
+.facebook i {
+    font-size: 12px;
+    color: white;
+}
+
+.instagram {
+
+    height: 28px;
+    width: 28px;
+    border-radius: 100px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #a8a5ae;
+}
+
+.instagram i {
+    font-size: 12px;
+    color: white;
+}
+
+.link-in {
+
+    height: 28px;
+    width: 28px;
+    border-radius: 100px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #a8a5ae;
+}
+
+.link-in i {
+    font-size: 12px;
+    color: white;
+}
+
+.section-width-left {
+    position: relative;
+    left: 40px;
+}
+
+.accordion-row {
+    margin-top: 20px;
+}
+
+/* ---------------------------------------section 7  team start------------------------------------------ */
+
+
+
+/* ------------------------------------- section 8  contect start---------------------------------------  */
+.contect-body {
+
+    height: auto;
+    width: auto;
+    margin-top: 65px;
+    display: flex;
+}
+
+.contact-underline {
+    border: 1px solid #019970;
+    height: 3px;
+    width: 88px;
+    background-color: #019970;
+
+}
+
+.contect-font {
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+.section-map-body {
+
+    height: auto;
+    width: auto;
+    margin-left: 25px;
+}
+
+.map {
+
+    height: 230px;
+    width: 680px;
+    background-image: url(Assets/images/Jersey-City-Map-Feature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Location-body {
+
+    height: 82px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 6px -2px;
+    display: flex;
+}
+
+.location-icon {
+
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+    margin-top: 19px;
+    border-radius: 100px;
+    background-color: #019970;
+}
+
+.location-icon i {
+    font-size: 18px;
+    margin-left: 13px;
+    margin-top: 10px;
+    color: white;
+}
+
+.location-text h6 {
+    margin-top: 23px;
+    margin-left: 14px;
+    font-size: 18px;
+}
+
+.location-text-p {
+    font-size: 12px;
+    position: relative;
+    left: 13px;
+    bottom: 6px;
+    color: #a4acb6;
+}
+
+.section-email-call-body {
+    height: 82px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.Email-body {
+
+    height: 82px;
+    width: 311px;
+    display: flex;
+    box-shadow: 0px 0px 6px -2px;
+}
+
+.email-icon {
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+    margin-top: 19px;
+    border-radius: 100px;
+    background-color: #019970;
+}
+
+.email-icon i {
+    font-size: 16px;
+    margin-left: 12px;
+    margin-top: 11px;
+    color: white;
+
+}
+
+.email-text h6 {
+    margin-top: 23px;
+    margin-left: 14px;
+    font-size: 18px;
+}
+
+.email-id-p {
+    font-size: 12px;
+    position: relative;
+    left: 13px;
+    bottom: 9px;
+    color: #a4acb6;
+}
+
+.Call-body {
+
+    height: 82px;
+    width: 347px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 6px -2px;
+    display: flex;
+}
+
+.call-icon {
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+    margin-top: 19px;
+    border-radius: 100px;
+    background-color: #019970;
+}
+
+.call-icon i {
+    font-size: 16px;
+    margin-left: 14px;
+    margin-top: 11px;
+    color: white;
+
+}
+
+.call-text h6 {
+    margin-top: 23px;
+    margin-left: 14px;
+    font-size: 18px;
+}
+
+.call-number {
+    font-size: 10px;
+    position: relative;
+    left: 13px;
+    bottom: 5px;
+    color: #a4acb6;
+}
+
+.section-form-body {
+
+    height: 380px;
+    width: 680px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 6px -2px;
+
+}
+
+.name-email-body {
+
+    height: 88px;
+    width: 673px;
+    margin-top: 6px;
+    margin-left: 22px;
+    display: flex;
+
+}
+
+.your-name {
+    border: 1px solid #e5e8eb;
+    height: 50px;
+    width: 300px;
+    margin-top: 19px;
+    margin-left: 4px;
+}
+
+.your-name p {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #a4acb6;
+}
+
+.your-email {
+    border: 1px solid #e5e8eb;
+    height: 50px;
+    width: 300px;
+    margin-top: 19px;
+    margin-left: 30px;
+}
+
+.your-email p {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #a4acb6;
+}
+
+.subject {
+
+    border: 1px solid #e5e8eb;
+    height: 50px;
+    width: 300px;
+}
+
+.section-subject {
+    border: 1px solid #e5e8eb;
+    height: 50px;
+    width: 631px;
+    margin-top: 6px;
+    margin-left: 25px;
+}
+
+.section-subject p {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #a4acb6;
+}
+
+.section-message {
+
+    border: 1px solid #e5e8eb;
+    height: 130px;
+    width: 630px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.section-message p {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #a4acb6;
+}
+
+.section-form-body button {
+    position: relative;
+    left: 285px;
+    top: 20px;
+    border-radius: 100px;
+    width: 146px;
+    height: 39px;
+    background-color: #019970;
+    color: white;
+    border: none;
+}
+
+/*----------------------------------- section 8  contect start------------------------------- */
+
+
+/* -----------------------------section 9 footer start-------------------------------------- */
+.section-footer-body {
+    background-color: #f8f8f8;
+    height: 400px;
+    width: auto;
+    margin-top: 40px;
+}
+
+.footer-display-flex {
+
+    height: auto;
+    width: auto;
+    display: flex;
+    position: relative;
+    top: 70px;
+}
+
+.bethany {
+
+    height: auto;
+    width: auto;
+}
+
+.bethany h6 {
+    font-size: 25px;
+    color: #4d4f4f;
+}
+
+.bethany p {
+    font-size: 12px;
+    color: #a4acb6;
+}
+
+.phone {
+    color: #4d4f4f;
+    font-weight: 700;
+}
+
+.email {
+    color: #4d4f4f;
+    font-weight: 700;
+}
+
+.email-text-2 {
+
+    position: relative;
+    bottom: 15px;
+}
+
+.useful-links {
+
+    height: auto;
+    width: auto;
+    margin-left: 75px;
+}
+
+.useful-links ul li a {
+    text-decoration: none;
+    color: #a4acb6;
+}
+
+.useful-links ul li {
+    list-style: none;
+}
+
+.useful-links ul li i {
+    color: #019970;
+    font-size: 9px;
+    position: relative;
+    right: 8px;
+}
+
+.useful-links h6 {
+    margin-left: 21px;
+}
+
+.distamce-list {
+    margin-top: 20px;
+}
+
+.Our-service {
+
+    height: auto;
+    width: auto;
+    margin-left: 80px;
+}
+
+.Our-service ul li a {
+    text-decoration: none;
+    color: #a4acb6;
+}
+
+.Our-service ul li {
+    list-style: none;
+}
+
+.Our-service ul li i {
+    color: #019970;
+    font-size: 9px;
+    position: relative;
+    right: 8px;
+}
+
+.Our-service h6 {
+    margin-left: 21px;
+}
+
+.Join-our-newsletter {
+    position: relative;
+    left: 110px;
+}
+
+.Join-our-newsletter p {
+    font-size: 10px;
+    color: #6f767e;
+
+}
+
+.subscribe {
+    border: 1px solid #e5e8eb;
+    height: 29px;
+    width: 181px;
+    margin-top: 40px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 4px -2px;
+}
+
+.subscribe button {
+    background-color: #019970;
+    color: white;
+    border-radius: 100px;
+    font-size: 12px;
+    height: 31px;
+    position: relative;
+    left: 137px;
+    bottom: 2px;
+    border: none;
+    width: 86px;
+}
+
+/* ------------------------------------ section 9 footer end----------------------------------------------- */
+
+
+
+/*---------------------------- section 10 copyright start----------------------------------------- */
+.copy-right-body {
+    height: 70px;
+    width: auto;
+    display: flex;
+    background-color: #f1f1f3;
+}
+
+.copyright-text {
+
+    height: 50px;
+    width: 315px;
+    position: relative;
+    left: 150px;
+    top: 13px;
+}
+
+.copyright-text p {
+    font-size: 12px;
+    color: #787878;
+}
+
+.bethany {
+    color: black;
+    font-weight: 700;
+}
+
+.bootstrap-text {
+    color: #019970;
+    font-weight: 600;
+}
+
+.footer-social-icon {
+
+    height: 53px;
+    width: 200px;
+    position: relative;
+    left: 653px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.footer-twitter {
+
+    height: 28px;
+    width: 28px;
+    border-radius: 100px;
+    text-align: center;
+    background-color: #019970;
+}
+
+.footer-twitter i {
+    font-size: 12px;
+    color: white;
+}
+
+.footer-facebook {
+
+    height: 28px;
+    width: 28px;
+    border-radius: 100px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #019970;
+}
+
+.footer-facebook i {
+    font-size: 12px;
+    color: white;
+}
+
+.footer-instagram {
+
+    height: 28px;
+    width: 28px;
+    border-radius: 100px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #019970;
+}
+
+.footer-instagram i {
+    font-size: 12px;
+    color: white;
+}
+
+.footer-link-in {
+
+    height: 28px;
+    width: 28px;
+    border-radius: 100px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #019970;
+}
+
+.footer-link-in i {
+    font-size: 12px;
+    color: white;
+}
+
+.footer-skype {
+
+    height: 28px;
+    width: 28px;
+    border-radius: 100px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #019970;
+}
+
+.footer-skype i {
+    font-size: 12px;
+    color: white;
+}
+
+.footer-top-errow {
+
+    height: 35px;
+    width: 37px;
+    position: relative;
+    left: 778px;
+    top: 23px;
+    border-radius: 100px;
+    text-align: center;
+    background-color: #019970;
+}
+
+.footer-top-errow i {
+    position: relative;
+    top: 5px;
+    color: white;
+    font-size: 13px;
+}
+
+
+
+
+
+
+/*------------------------------------------------MOBILE-RESPONCIVE start-------------------------------------------------*/
+@media screen and (max-width: 320px) {
+    .section-background-image {
+        background-image: url(Assets/images/vipin.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 718px;
+        height: 688px;
+        position: relative;
+        bottom: 130px;
+        top: 40px;
+    }
+
+    .section-background-text h1 {
+        font-size: 67px;
+        font-weight: 600;
+        color: white;
+        position: relative;
+        bottom: 567px;
+        left: 22px;
+        width: 618px;
+        text-align: center;
+    }
+
+    .section-background-text h2 {
+
+        font-size: 21px;
+        font-family: "Open Sans", sans-serif;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        position: relative;
+        bottom: 531px;
+        left: 18px;
+        color: white;
+        width: 631px;
+        text-align: center;
+    }
+
+    .section-background-text button {
+        border-radius: 100px;
+        position: relative;
+        bottom: 440px;
+        left: 204px;
+        height: 76px;
+        width: 243px;
+        font-size: 25px;
+        background: transparent;
+        color: white;
+        border: 1px solid white;
+    }
+
+    .section-background-text button:hover {
+        border: none;
+        background-color: #019970;
+        position: relative;
+        bottom: 730px;
+    }
+
+    .section-nav-bar {
+        height: 80px;
+        width: 900px;
+        position: relative;
+        top: 86px;
+        left: -50px;
+        font-size: 26px;
+    }
+
+    .section-nav-bar button {
+        border: none;
+        border-radius: 100px;
+        padding: 2px;
+        font-size: 22px;
+        height: 61px;
+        width: 213px;
+        color: white;
+        font-weight: 600;
+        position: relative;
+        left: 26px;
+        top: 10px;
+    }
+
+    .nav-logo-bar {
+        height: 400px;
+        width: 716px;
+        display: flex;
+        background-color: #ffffff;
+        position: relative;
+        top: 3px;
+        right: 0px;
+        z-index: 99;
+    }
+
+    .section-logo-Bethany {
+        height: 71px;
+        width: 225px;
+        position: relative;
+        right: 19px;
+        left: 226px;
+        margin-top: 20px;
+        background-color: #019970;
+        color: white;
+    }
+
+    .section-logo-Bethany p {
+        padding: 3px;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+        margin-top: 10px;
+    }
+
+    .section-background-text button:hover {
+        border: none;
+        background-color: #019970;
+    }
+
+    .section-clints-result {
+        height: 675px;
+        width: 687px;
+        background-color: #019970;
+        position: relative;
+        bottom: 317px;
+        left: 19px;
+        text-align: center;
+    }
+
+    .body-section-clints-result {
+
+        display: block;
+    }
+
+
+    .Clients {
+
+        position: relative;
+        top: 30px;
+        text-align: center;
+        left: 0px;
+    }
+
+    .Clients span {
+        font-size: 64px;
+        font-weight: 700;
+        color: white;
+
+    }
+
+    .Clients p {
+        font-size: 35px;
+        font-family: "Raleway", sans-serif;
+        color: white;
+        position: relative;
+        left: 0px;
+        bottom: 24px;
+    }
+
+    .Project {
+
+        position: relative;
+        text-align: center;
+        top: 30px;
+        left: 7px;
+    }
+
+    .Project span {
+        font-size: 64px;
+        font-weight: 700;
+        color: white;
+
+    }
+
+    .Project p {
+        font-size: 35px;
+        font-family: "Raleway", sans-serif;
+        color: white;
+        position: relative;
+        left: 0px;
+        bottom: 8px;
+    }
+
+    .Hour-of-support {
+
+        position: relative;
+        top: 30px;
+        left: 167px;
+        width: 326px;
+    }
+
+    .Hour-of-support span {
+        font-size: 64px;
+        font-weight: 700;
+        color: white;
+
+    }
+
+    .Hour-of-support p {
+        font-size: 20px;
+        font-family: "Raleway", sans-serif;
+        color: white;
+        position: relative;
+        bottom: 8px;
+        right: 15px;
+        left: 3px;
+
+    }
+
+    .Hard-Workers {
+
+        position: relative;
+        left: 162px;
+        top: 30px;
+        width: 326px;
+    }
+
+    .Hard-Workers span {
+        font-size: 65px;
+        font-weight: 700;
+        color: white;
+
+    }
+
+    .Hard-Workers p {
+        font-size: 20px;
+        font-family: "Raleway", sans-serif;
+        color: white;
+        position: relative;
+        bottom: 8px;
+        right: 15px;
+        left: 19px;
+    }
+
+
+    /* -----------------------------------section 2 mobile responcive------------------------------ */
+
+    .body-top-container {
+        position: relative;
+        bottom: 500px;
+    }
+
+    .why-choose {
+        font-size: 33px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        font-family: inherit;
+    }
+
+    .text-class {
+        font-size: 13px;
+        color: white;
+    }
+
+    .background {
+        background-color: #019970;
+        border: none;
+        height: 615px;
+        width: 707px;
+        position: relative;
+        right: 10px;
+        left: 1px;
+        top: 202px;
+
+    }
+
+    .card-body a {
+        background-color: #1aa37f;
+        border: none;
+        border-radius: 100px;
+        margin-left: 70px;
+        margin-top: 58px;
+        font-size: 26px;
+        height: 60px;
+        width: 200px;
+        position: relative;
+        left: 175px;
+    }
+
+    .card-body a i {
+        font-size: 11px;
+    }
+
+    .card-body a:hover {
+        background-color: #f8f8f8;
+        color: #1aa37f;
+    }
+
+    .margin-top3 {
+        position: relative;
+        top: 233px;
+        left: 56px;
+        height: 325px;
+        width: 576px;
+        border: none;
+        box-shadow: 0px 0px 6px -2px;
+    }
+
+    .notes-card {
+        font-size: 40px;
+        color: #1aa37f;
+        text-align: center;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .text-card-title {
+        font-size: 35px;
+        font-weight: 700;
+        color: black;
+        margin-top: 25px;
+    }
+
+    .p-card-text {
+        color: #959595;
+        margin-top: 14px;
+        font-size: 26px !important;
+    }
+
+    .card-body p {
+    
+        position: relative;
+        top: 24px;
+        left: 10px;
+        font-family: inherit;
+        text-align: center;
+        font-size: 31px;
+    }
+
+    .section-servic-body {
+        height: 472px;
+        position: relative;
+        bottom: 266px;
+        width: 713px;
+        left: 1px;
+    }
+
+    .call-action-staff {
+        height: 469px;
+    }
+
+    .section-background-image {
+        background-position: center;
+    }
+
+    .text-call {
+        text-align: center;
+        position: relative;
+        bottom: 269px;
+    }
+
+    .call {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        position: relative;
+        bottom: 118px;
+    }
+
+    .text-call button {
+        background: content-box;
+        color: white;
+        border: 1px solid white;
+        border-radius: 100px;
+        height: 45px;
+        width: 160px;
+        font-size: 15px;
+        position: relative;
+        top: 15px;
+        display: none;
+    }
+
+    .service-body {
+        position: relative;
+        bottom: 249px;
+        left: 1px;
+        height: auto;
+        width: 716px;
+
+    }
+
+    .card0 {
+        position: relative;
+        right: 0px;
+        left: 44px;
+        bottom: 46px;
+        width: 593px;
+        border: none;
+        box-shadow: 0px 0px 6px -2px;
+        height: 500px;
+    }
+
+    .font-icon {
+        border: 1px solid #019970;
+        height: 110px;
+        width: 110px;
+        border-radius: 100px;
+        position: relative;
+        left: 239px;
+        top: 20px;
+        padding: 10px;
+    }
+
+    .card-body h1 {
+        font-size: 60px;
+    }
+
+    .font-icon i {
+        font-size: 80px;
+        margin-top: 5px;
+        color: #019970;
+
+    }
+
+    .carded {
+        position: relative;
+        left: 48px;
+        top: 915px;
+        height: 576px;
+        border: none;
+        box-shadow: 0px 0px 6px -2px;
+        width: 593px;
+    }
+
+    .service-tax-margin2 {
+        position: relative;
+        top: 20px;
+        right: 0px;
+        left: 44px;
+        border: none;
+        box-shadow: 0px 0px 6px -2px;
+        height: 576px;
+        width: 593px;
+    }
+
+    .cardeo {
+        position: relative;
+        left: 56px;
+        top: -35px;
+        border: none;
+        box-shadow: 0px 0px 6px -2px;
+        height: 578px;
+        width: 593px;
+    }
+
+    .service-mobile-width {
+        font-size: 63px;
+        position: relative;
+        left: 120px;
+        bottom: 50px;
+        text-align: center;
+    }
+
+    .under-line {
+        height: 3px;
+        width: 160px;
+        background-color: #019970;
+        position: relative;
+        bottom: 72px;
+        left: 202px;
+
+    }
+
+    .mobile-peregraph-size {
+        font-size: 29px;
+        position: relative;
+        width: 687px;
+        top: -65px;
+        text-align: center;
+    }
+
+    .section-width {
+        width: 591px;
+        height: 755px;
+        position: relative;
+        bottom: 831px;
+        left: 2px;
+    }
+
+    .portfilo-body {
+        height: auto;
+        width: 600px;
+        position: relative;
+        bottom: 170px;
+    }
+
+    .portfilo-title-width {
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .section-mobile-responisve-width {
+        font-size: 25px;
+    }
+
+    .section-portfilo-underline {
+        border: 1px solid #019970;
+        height: 4px;
+        width: 145px;
+        background-color: #019970;
+        margin-top: 15px;
+        position: relative;
+        left: 218px;
+        bottom: 10px;
+    }
+
+    .portfilo-body p {
+        margin-top: 15px;
+        font-size: 30px;
+        text-align: justify;
+        width: 703px;
+    }
+
+    .section-app-card-all-web {
+        height: 50px;
+        width: 377px;
+        position: relative;
+        left: 210px;
+        font-size: 28px;
+    }
+
+    .section-all-text {
+        height: 42px;
+        width: 80px;
+        position: absolute;
+        right: 353px;
+        top: 10px;
+        border-radius: 100px;
+        background-color: #019970;
+    }
+
+    .all-text {
+        position: relative;
+        bottom: 10px;
+        left: 9px;
+        color: white !important;
+    }
+
+    .section-images img {
+        width: 539px;
+        cursor: pointer;
+        transition: transform 0.2s;
+        position: relative;
+        right: 209px;
+        top: 80px;
+    }
+
+    .image-margin-top {
+        margin-top: 30px;
+    }
+
+    .top-margin {
+        margin-top: 30px;
+        position: relative;
+        left: 284px;
+    }
+
+    .section-testimonials-body {
+        height: 1860px;
+        width: 715px;
+        margin-top: 30px;
+        display: flex;
+        position: relative;
+        bottom: 64px;
+        left: 1px;
+        background-color: #f6f6f6;
+    }
+
+    .Test-monials-title-width {
+        font-size: 55px;
+        position: relative;
+        left: 103px;
+        bottom: 40px;
+    }
+
+    .testimonials-underline {
+        border: 1px solid #019970;
+        height: 4px;
+        width: 200px;
+        background-color: #019970;
+        position: relative;
+        left: 175px;
+        bottom: 42px;
+    }
+
+    .section-text-testimonials p {
+        font-size: 33px;
+        width: 695px;
+        position: relative;
+        right: 36px;
+        bottom: 25px;
+    }
+
+    .slider-margin {
+        position: relative;
+        left: 120px;
+        bottom: 0px;
+        top: 35px;
+        width: 100px;
+    }
+
+    .slider-margin-2 {
+        position: relative !important;
+        left: 42px;
+        bottom: 125px;
+        top: 71px;
+    }
+
+    .testimonials-card {
+        width: 542px;
+        height: 610px;
+        margin-left: 39px;
+        position: relative;
+        right: 85px;
+        border: none;
+        box-shadow: 0px 0px 6px -2px;
+    }
+
+    .testmonilos-size {
+        font-size: 30px !important;
+    }
+
+    .text-font-size-p {
+        font-size: 30px;
+    }
+
+    .man-images {
+        height: 114px;
+        width: 114px;
+        margin-left: 75px;
+        background-image: url(Assets/profile/man.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 100px;
+        position: relative;
+        bottom: 34px;
+        left: 124px;
+
+    }
+
+    .testimonials-card h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-right: 15px;
+    }
+
+    .card-text:last-child {
+        margin-bottom: 0;
+        font-size: 25px;
+    }
+
+    .section-Team {
+        margin-top: 0px;
+        display: flex;
+        position: relative;
+        bottom: 0px;
+        width: 700px;
+    }
+
+    .card-size {
+        width: 492px;
+        height: 609px;
+        box-shadow: 0px 0px 6px -2px;
+        margin-left: 30px;
+        border: none;
+        position: relative;
+        top: 240px;
+        right: 322px;
+        text-align: center;
+    }
+
+    .section-team-width {
+        font-size: 60px;
+        position: relative;
+        left: 205px;
+    }
+
+    .Team-under-line {
+        border: 1px solid #019970;
+        height: 4px;
+        width: 90px;
+        background-color: #019970;
+        position: relative;
+        left: 240px;
+        bottom: 9px;
+    }
+
+    .team-text {
+        margin-top: 10px;
+        font-size: 32px;
+        width: 689px;
+        height: 115px;
+    }
+
+    .card-profile {
+
+        height: 113px;
+        width: 116px;
+        background-image: url(Assets/profile/man.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 100px;
+        position: relative;
+        left: 196px;
+        top: 25px;
+    }
+
+    .text-center {
+        font-size: 30px;
+    }
+
+    .center-text {
+        position: relative;
+        bottom: 29px;
+        top: 14px;
+        font-size: 28px;
+    }
+
+    .section-social {
+        height: 100px;
+        width: 358px;
+        margin-left: 52px;
+        position: relative;
+        bottom: 14px;
+        left: 48px;
+        display: flex;
+    }
+
+    .twitter {
+        height: 70px;
+        width: 70px;
+        border-radius: 100px;
+        text-align: center;
+        background-color: #a8a5ae;
+    }
+
+    .twitter i {
+        font-size: 26px;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .facebook {
+        height: 70px;
+        width: 70px;
+        border-radius: 100px;
+        text-align: center;
+        background-color: #a8a5ae;
+    }
+
+    .facebook i {
+        font-size: 26px;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .instagram {
+        height: 70px;
+        width: 70px;
+        border-radius: 100px;
+        text-align: center;
+        background-color: #a8a5ae;
+    }
+
+    .instagram i {
+        font-size: 26px;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .link-in {
+        height: 70px;
+        width: 70px;
+        border-radius: 100px;
+        text-align: center;
+        background-color: #a8a5ae;
+    }
+
+    .link-in i {
+        font-size: 26px;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .accordig-position {
+        position: relative;
+        top: 275px;
+        right: 360px;
+
+    }
+
+    .accordig-position1 {
+        position: relative;
+        top: 289px;
+        right: 320px;
+
+    }
+
+    .accordig-position2 {
+        position: relative;
+        top: 323px;
+        right: 357px;
+
+    }
+
+    .contect-body {
+        height: 1310px;
+        width: 630px;
+        margin-top: 65px;
+        display: flex;
+        position: relative;
+        top: 336px;
+
+    }
+
+    .section-map-body {
+        width: 597px;
+        margin-left: 25px;
+        position: relative;
+        top: 346px;
+        right: 648px;
+
+    }
+
+    .contect-font {
+        font-size: 26px;
+        margin-top: 12px;
+        width: 625px;
+    }
+
+    .contect-contect-font {
+        font-size: 60px;
+    }
+
+    .contact-underline {
+        border: 1px solid #019970;
+        height: 3px;
+        width: 143px;
+        background-color: #019970;
+    }
+
+    .map {
+        height: 374px;
+        width: 596px;
+        background-image: url(Assets/images/Jersey-City-Map-Feature.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .location-text h6 {
+        margin-top: 17px;
+        margin-left: 14px;
+        font-size: 25px;
+    }
+
+    .location-text-p {
+        font-size: 23px;
+        position: relative;
+        left: 13px;
+        bottom: 9px;
+        color: #a4acb6;
+    }
+
+    .location-icon {
+        height: 50px;
+        width: 50px;
+        margin-left: 30px;
+        margin-top: 24px;
+        border-radius: 100px;
+        background-color: #019970;
+    }
+
+    .location-icon i {
+        font-size: 24px;
+        margin-left: 16px;
+        margin-top: 14px;
+        color: white;
+    }
+
+    .email-text h6 {
+        margin-top: 8px;
+        margin-left: 14px;
+        font-size: 30px;
+    }
+
+    .email-id-p {
+        font-size: 20px;
+        position: relative;
+        left: 13px;
+        bottom: 9px;
+        color: #a4acb6;
+    }
+
+    .email-icon {
+        height: 50px;
+        width: 50px;
+        margin-left: 30px;
+        margin-top: 19px;
+        border-radius: 100px;
+        background-color: #019970;
+    }
+
+    .email-icon i {
+        font-size: 22px;
+        margin-left: 14px;
+        margin-top: 14px;
+        color: white;
+    }
+
+    .call-text h6 {
+        margin-top: 15px;
+        margin-left: 14px;
+        font-size: 30px;
+    }
+
+    .call-number {
+        font-size: 20px;
+        position: relative;
+        left: 13px;
+        bottom: 11px;
+        color: #a4acb6;
+    }
+
+    .call-text h6 {
+        margin-top: 12px;
+        margin-left: 14px;
+        font-size: 30px;
+    }
+
+    .call-icon {
+        height: 50px;
+        width: 50px;
+        margin-left: 30px;
+        margin-top: 19px;
+        border-radius: 100px;
+        background-color: #019970;
+    }
+
+    .call-icon i {
+        font-size: 20px;
+        margin-left: 17px;
+        margin-top: 16px;
+        color: white;
+    }
+
+    .section-form-body {
+        height: 380px;
+        width: 596px;
+        margin-top: 30px;
+        box-shadow: 0px 0px 6px -2px;
+    }
+
+    .your-email {
+        border: 1px solid #e5e8eb;
+        height: 50px;
+        width: 220px;
+        margin-top: 19px;
+        margin-left: 30px;
+    }
+
+    .your-name p {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+        color: #a4acb6;
+    }
+
+    .your-email p {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+        color: #a4acb6;
+    }
+
+    .section-subject {
+        border: 1px solid #e5e8eb;
+        height: 50px;
+        width: 552px;
+        margin-top: 6px;
+        margin-left: 25px;
+    }
+
+    .section-subject p {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+        color: #a4acb6;
+    }
+
+    .section-message {
+        border: 1px solid #e5e8eb;
+        height: 130px;
+        width: 555px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    .section-message p {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+        color: #a4acb6;
+    }
+
+    .section-form-body button {
+        position: relative;
+        left: 285px;
+        top: 20px;
+        border-radius: 100px;
+        width: 162px;
+        height: 52px;
+        background-color: #019970;
+        color: white;
+        border: none;
+    }
+
+    .section-footer-body {
+        background-color: #f8f8f8;
+        height: 1000px;
+        width: 612px;
+        margin-top: 40px;
+        position: relative;
+        top: 125px;
+        left: 2px;
+    }
+
+    .section-form-body button {
+        position: relative;
+        left: 221px;
+        top: 13px;
+        border-radius: 100px;
+        width: 204px;
+        height: 55px;
+        background-color: #019970;
+        color: white;
+        border: none;
+        font-size: 24px;
+    }
+
+    .bethany h6 {
+        font-size: 70px;
+        color: #4d4f4f;
+    }
+
+    .bethany p {
+        font-size: 26px;
+        color: #a4acb6;
+    }
+
+    .useful-links h6 {
+        margin-left: 1px;
+        width: 277px;
+        font-size: 46px;
+        margin-top: 30px;
+    }
+
+    .mobile-responcive-list-font-size {
+        font-size: 29px !important;
+    }
+
+    .useful-links ul li i {
+        color: #019970;
+        font-size: 20px;
+        position: relative;
+        right: 8px;
+        bottom: 3px;
+    }
+
+    .Our-service {
+        height: 350px;
+        width: auto;
+        margin-left: 80px;
+        position: relative;
+        top: 450px;
+        right: 692px;
+    }
+
+    .Our-service h6 {
+        margin-left: 5px;
+        font-size: 43px;
+        width: 310px;
+    }
+
+    .mobile-responcive-services-font-size {
+        font-size: 25px;
+        margin-left: 6px;
+        width: 300px;
+    }
+
+    .Our-service ul li i {
+        color: #019970;
+        font-size: 18px;
+        position: relative;
+        right: 8px;
+        bottom: 2px;
+    }
+
+    .Join-our-newsletter {
+
+        position: relative;
+        top: 470px;
+        left: -664px;
+        height: 304px;
+        width: 239px;
+    }
+
+    .Join-our-newsletter h6 {
+        font-size: 28px;
+        width: 256px;
+    }
+
+    .Join-our-newsletter p {
+        font-size: 26px;
+        color: #6f767e;
+        margin-left: 12px;
+    }
+
+    .subscribe button {
+        background-color: #019970;
+        color: white;
+        border-radius: 100px;
+        font-size: 22px;
+        height: 49px;
+        position: relative;
+        left: 155px;
+        bottom: 2px;
+        border: none;
+        width: 138px;
+    }
+
+    .subscribe {
+        border: 1px solid #e5e8eb;
+        height: 46px;
+        width: 181px;
+        margin-top: 40px;
+        border-radius: 100px;
+        box-shadow: 0px 0px 4px -2px;
+        position: relative;
+        right: 38px;
+    }
+
+    .copyright-text p {
+        font-size: 21px;
+        color: #787878;
+    }
+
+    .copyright-text p span {
+        position: relative;
+        left: 127px;
+        bottom: 31px;
+    }
+
+    .footer-social-icon {
+        height: 155px;
+        width: 404px;
+        position: relative;
+        left: 38px;
+        top: 184px;
+        display: flex;
+        margin-top: 15px;
+    }
+
+    .copy-right-body {
+        height: 300px;
+        width: 612px;
+        display: flex;
+        background-color: #f1f1f3;
+        position: relative;
+        top: 126px;
+        left: 1px;
+    }
+
+    .footer-twitter {
+        height: 72px;
+        width: 96px;
+        border-radius: 100px;
+        text-align: center;
+        background-color: #019970;
+        position: relative;
+        right: 145px;
+        bottom: 12px;
+    }
+
+    .footer-twitter i {
+        font-size: 27px;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .footer-facebook {
+        height: 72px;
+        width: 96px;
+        border-radius: 100px;
+        text-align: center;
+        background-color: #019970;
+        position: relative;
+        right: 145px;
+        bottom: 12px;
+    }
+
+    .footer-facebook i {
+        font-size: 27px;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .footer-instagram {
+        height: 72px;
+        width: 96px;
+        border-radius: 100px;
+        text-align: center;
+        background-color: #019970;
+        position: relative;
+        right: 145px;
+        bottom: 12px;
+    }
+
+    .footer-instagram i {
+        font-size: 27px;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .footer-skype {
+        height: 72px;
+        width: 96px;
+        border-radius: 100px;
+        text-align: center;
+        background-color: #019970;
+        position: relative;
+        right: 145px;
+        bottom: 12px;
+    }
+
+    .footer-skype i {
+        font-size: 27px;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .footer-link-in {
+        height: 72px;
+        width: 96px;
+        border-radius: 100px;
+        text-align: center;
+        background-color: #019970;
+        position: relative;
+        right: 145px;
+        bottom: 12px;
+    }
+
+    .footer-link-in i {
+        font-size: 27px;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .footer-top-errow {
+        height: 63px;
+        width: 140px;
+        position: relative;
+        left: -30px;
+        top: 183px;
+        border-radius: 100px;
+        text-align: center;
+        background-color: #019970;
+    }
+
+    .footer-top-errow i {
+        position: relative;
+        top: 19px;
+        color: white;
+        font-size: 25px;
+    }
+
+    .section-slider {
+        height: 31px;
+        width: 89px;
+        display: flex;
+        position: relative;
+        left: 803px;
+        bottom: 19px;
+        display: none;
+    }
+
+    .bethany {
+        color: black;
+        font-weight: 200;
+    }
+
+    .accordion-row {
+        margin-top: 20px;
+        width: 0px;
+    }
+
+    .call-to-action {
+        font-size: 50px;
+    }
+
+    .call-to-action-p {
+        font-size: 29px;
+    }
+    .card-body {
+        margin-top: 25px;
+    }
+}
